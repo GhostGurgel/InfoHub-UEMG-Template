@@ -162,3 +162,4 @@ Antes de submeter o repositório da sua equipe para avaliação e integração c
 ---
 
 Bom desenvolvimento a toda a equipe!
+Commit Test
