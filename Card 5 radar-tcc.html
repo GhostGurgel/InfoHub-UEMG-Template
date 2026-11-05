@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radar de TCC | InfoHub UEMG Carangola</title>
+  <meta name="description" content="Radar de TCC: assuntos que pesquisadores estudam em tecnologia, tendências recentes e ideias de pesquisa para estudantes da UEMG Carangola." />
+  <meta name="theme-color" content="#003366" />
+  <link rel="icon" type="image/jpeg" href="./images/logo_uemg_2.jpg" />
+  <link rel="stylesheet" href="./css/base-uemg.css" />
+  <link rel="stylesheet" href="./css/setor.css" />
+  <style>
+    /* Estilos exclusivos desta página (tabela, rótulos e listas de apoio) */
+    .radar-table-wrap { overflow-x: auto; margin: 0 0 2rem; }
+    .radar-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; background: #fff; }
+    .radar-table caption { text-align: left; font-weight: 700; padding: 0 0 0.6rem; }
+    .radar-table th, .radar-table td { text-align: left; padding: 0.75rem 1rem; border-bottom: 1px solid #d9e1ea; vertical-align: top; }
+    .radar-table thead th { background: #003366; color: #fff; font-weight: 600; }
+    .radar-table tbody th { font-weight: 700; white-space: nowrap; }
+    .radar-tag { display: inline-block; margin: 0 0 0.6rem; padding: 0.2rem 0.6rem; border: 1px solid #003366; border-radius: 999px; font-size: 0.8rem; font-weight: 600; color: #003366; }
+    .radar-note { border-left: 4px solid #003366; background: #f3f6fa; padding: 1rem 1.25rem; margin: 0 0 2rem; }
+    .radar-note p { margin: 0 0 0.5rem; }
+    .radar-note p:last-child { margin-bottom: 0; }
+    .radar-label { font-weight: 700; }
+  </style>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="https://infohub-uemgcarangola.vercel.app/" class="brand-wrapper"
+        title="InfoHub UEMG Carangola — Voltar à Página Principal">
+        <img src="./images/logo_uemg_2.jpg" alt="Logotipo Oficial da UEMG" class="brand-logo" width="135" height="46" />
+        <div class="brand-divider" aria-hidden="true"></div>
+        <div class="brand-titles">
+          <span class="brand-institution">Universidade do Estado de Minas Gerais</span>
+          <span class="brand-unit">Unidade Carangola</span>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <a href="https://infohub-uemgcarangola.vercel.app/" class="btn-back-hub"
+          title="Voltar ao portal principal InfoHub">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Voltar ao Hub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-section" aria-labelledby="hero-heading">
+    <div class="container hero-content">
+      <div class="hero-badge">Setor 10 • TCC</div>
+      <h1 id="hero-heading" class="hero-title">Radar de TCC</h1>
+      <p class="hero-lead">
+        Tecnologia, inovação e pesquisa: um espaço para apresentar tendências científicas, explicar assuntos atuais e inspirar novas pesquisas acadêmicas.
+      </p>
+      <div class="hero-stats-row">
+        <div class="hero-stat-item">
+          <span aria-hidden="true">▤</span>
+          <span>271 trabalhos únicos</span>
+        </div>
+        <div class="hero-stat-item">
+          <span aria-hidden="true">✓</span>
+          <span>211 dissertações</span>
+        </div>
+        <div class="hero-stat-item">
+          <span aria-hidden="true">🎓</span>
+          <span>60 teses</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main-content" role="main" class="setor-main-section">
+    <div class="container">
+
+      <!-- 1. PANORAMA -->
+      <header class="setor-section-header">
+        <p class="setor-section-subtitle">Panorama científico</p>
+        <h2 class="setor-section-title">O que os pesquisadores estão estudando em tecnologia</h2>
+        <p class="setor-section-desc">
+          Este radar não é um relatório acadêmico. Ele reúne os assuntos mais recorrentes em teses e dissertações da área
+          para ajudar estudantes da UEMG Carangola a escolher temas de TCC. A base analisada tem 271 trabalhos únicos
+          (211 dissertações de mestrado e 60 teses de doutorado), depois de identificados oito registros repetidos pelo critério título e ano.
+        </p>
+      </header>
+
+      <div class="radar-table-wrap">
+        <table class="radar-table">
+          <caption>Grandes eixos de assuntos encontrados na base</caption>
+          <thead>
+            <tr>
+              <th scope="col">Eixo</th>
+              <th scope="col">Assuntos encontrados</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Sistemas de informação</th><td>Sistemas gerenciais, ERP, sistemas organizacionais</td></tr>
+            <tr><th scope="row">Gestão e governança de TI</th><td>Transformação digital, governo eletrônico, automação</td></tr>
+            <tr><th scope="row">Ciência de dados</th><td>Mineração de dados, Big Data, Business Intelligence</td></tr>
+            <tr><th scope="row">Inteligência artificial</th><td>Machine Learning, análise preditiva, sistemas inteligentes</td></tr>
+            <tr><th scope="row">Saúde digital</th><td>Telemedicina, prontuários eletrônicos, sistemas hospitalares</td></tr>
+            <tr><th scope="row">Tecnologia educacional</th><td>Jogos digitais, plataformas de ensino, aplicativos educacionais</td></tr>
+            <tr><th scope="row">Geotecnologia</th><td>Sistemas geográficos, mobilidade urbana, cidades inteligentes</td></tr>
+            <tr><th scope="row">Segurança digital</th><td>Segurança da informação, privacidade, proteção de dados</td></tr>
+            <tr><th scope="row">Engenharia de software</th><td>Desenvolvimento, integração e modernização de sistemas</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="radar-note">
+        <p>
+          Entre os descritores em português, aparecem 97 menções a Tecnologia da Informação, 30 a Sistemas de Informação Gerencial,
+          26 a Sistemas de Informação e 16 a Sistemas de Informação Geográfica.
+        </p>
+        <p>Esses números são ocorrências de descritores, não contagens de trabalhos exclusivos.</p>
+      </div>
+
+      <!-- 2. TENDÊNCIAS -->
+      <header class="setor-section-header">
+        <p class="setor-section-subtitle">Tendências tecnológicas</p>
+        <h2 class="setor-section-title">O que chama atenção nos trabalhos recentes</h2>
+        <p class="setor-section-desc">
+          Observando principalmente os anos de 2023, 2024 e 2025, cinco movimentos se destacam. Cada um é apresentado
+          em três partes: o que é, por que pesquisar e como transformar em TCC.
+        </p>
+      </header>
+
+      <div class="setor-cards-grid">
+        <article class="setor-card">
+          <span class="radar-tag">Tema em destaque recente</span>
+          <h3>📊 Inteligência de dados e Business Intelligence</h3>
+          <p><span class="radar-label">O que é:</span> uso de dados para tomada de decisão, com dashboards, análise de indicadores, Big Data e aprendizado de máquina.</p>
+          <p><span class="radar-label">Por que pesquisar:</span> o tema aparece com frequência na base e se aplica a qualquer organização que precise transformar dados em decisões.</p>
+          <p><span class="radar-label">Como transformar em TCC:</span> "Como um painel de indicadores pode apoiar a gestão de um pequeno negócio local?"</p>
+        </article>
+
+        <article class="setor-card">
+          <span class="radar-tag">Tema recorrente e atual</span>
+          <h3>🏛️ Transformação digital</h3>
+          <p><span class="radar-label">O que é:</span> digitalização de serviços públicos, automação de processos, integração de sistemas e governança tecnológica.</p>
+          <p><span class="radar-label">Por que pesquisar:</span> é um assunto constante nos trabalhos e envolve diretamente a relação entre cidadãos, instituições e sistemas.</p>
+          <p><span class="radar-label">Como transformar em TCC:</span> "Quais serviços de uma prefeitura podem ser digitalizados e que ganhos isso traz ao cidadão?"</p>
+        </article>
+
+        <article class="setor-card">
+          <span class="radar-tag">Aplicações em expansão</span>
+          <h3>🩺 Saúde digital</h3>
+          <p><span class="radar-label">O que é:</span> prontuários eletrônicos, teleconsultas, integração de informações hospitalares e vigilância epidemiológica.</p>
+          <p><span class="radar-label">Por que pesquisar:</span> reúne aplicações em crescimento e problemas práticos de registro, integração e acesso à informação.</p>
+          <p><span class="radar-label">Como transformar em TCC:</span> "Como sistemas de informação podem melhorar o registro e o compartilhamento de dados em unidades de saúde pública?"</p>
+        </article>
+
+        <article class="setor-card">
+          <span class="radar-tag">Oportunidade de pesquisa</span>
+          <h3>🔒 Segurança e privacidade</h3>
+          <p><span class="radar-label">O que é:</span> proteção de dados, LGPD, segurança de redes e avaliação de vulnerabilidades.</p>
+          <p><span class="radar-label">Por que pesquisar:</span> a proteção de dados pessoais é uma exigência legal e um problema concreto para instituições de todos os tamanhos.</p>
+          <p><span class="radar-label">Como transformar em TCC:</span> "Como instituições de ensino lidam com a proteção de dados de alunos e qual o nível de adequação à LGPD?"</p>
+        </article>
+
+        <article class="setor-card">
+          <span class="radar-tag">Tema emergente na amostra recente</span>
+          <h3>🗺️ Cidades inteligentes e geotecnologia</h3>
+          <p><span class="radar-label">O que é:</span> mobilidade urbana, sistemas de informações geográficas, planejamento territorial e uso de dados urbanos.</p>
+          <p><span class="radar-label">Por que pesquisar:</span> aparece de forma emergente nos trabalhos mais recentes e permite estudos aplicados a realidades locais.</p>
+          <p><span class="radar-label">Como transformar em TCC:</span> "Como dados geográficos podem apoiar o planejamento urbano de um município de pequeno porte?"</p>
+        </article>
+
+        <article class="setor-card">
+          <h3>🤖 E a inteligência artificial?</h3>
+          <p>
+            A inteligência artificial aparece na base, mas não é o tema dominante. Seu interesse está associado principalmente
+            à análise de dados, à previsão, ao apoio à decisão e a aplicações específicas.
+          </p>
+          <p>
+            Por isso, esta base não permite apresentar a IA generativa como a principal tendência identificada.
+          </p>
+        </article>
+      </div>
+
+      <!-- 3. IDEIAS PARA TCC -->
+      <header class="setor-section-header">
+        <p class="setor-section-subtitle">Ideias para TCC</p>
+        <h2 class="setor-section-title">O que está em alta e o que pode virar pesquisa</h2>
+        <p class="setor-section-desc">
+          Os assuntos abaixo se destacam no radar. As ideias ao lado são pontos de partida para delimitar um tema, não títulos prontos.
+        </p>
+      </header>
+
+      <div class="setor-cards-grid">
+        <article class="setor-card">
+          <h3>🔥 O que está em alta?</h3>
+          <ul>
+            <li>Inteligência artificial e dados</li>
+            <li>Segurança digital</li>
+            <li>Cidades inteligentes</li>
+            <li>Educação e tecnologia</li>
+          </ul>
+        </article>
+
+        <article class="setor-card">
+          <h3>💡 Ideias que podem virar TCC</h3>
+          <ul>
+            <li>Aplicações de IA na gestão de pequenos negócios.</li>
+            <li>Segurança digital em instituições de ensino.</li>
+            <li>Digitalização de serviços públicos municipais.</li>
+            <li>Uso de sistemas de informação na saúde pública.</li>
+            <li>Tecnologia e inclusão digital em comunidades rurais.</li>
+            <li>Utilização de dados para planejamento urbano.</li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- 4. LIMITES DA BASE -->
+      <header class="setor-section-header">
+        <p class="setor-section-subtitle">Leitura responsável</p>
+        <h2 class="setor-section-title">O que esta base permite afirmar</h2>
+      </header>
+
+      <div class="setor-cards-grid">
+        <article class="setor-card">
+          <h3>⚠️ Limites da análise</h3>
+          <ul>
+            <li>A base contém teses e dissertações de diversas instituições, não trabalhos de graduação da UEMG Carangola.</li>
+            <li>Ela serve para identificar tendências externas e inspirar estudantes, mas não indica quais assuntos são mais procurados ou pesquisados na unidade.</li>
+            <li>A análise de 2026 é provisória, porque existem apenas três trabalhos desse ano no arquivo.</li>
+          </ul>
+        </article>
+
+        <article class="setor-card">
+          <h3>🏛️ Onde confirmar as regras oficiais?</h3>
+          <p>
+            Este conteúdo é uma fonte de inspiração e não substitui regulamentos, calendários ou orientações oficiais.
+            Para prazos, formato de entrega e critérios de avaliação, consulte a coordenação do curso e o professor orientador.
+          </p>
+          <p><a href="./informacoes-adicionais.html" style="font-weight: bold; color: var(--color-primary); text-decoration: none;">Orientações gerais sobre o TCC ↗</a></p>
+          <p><a href="./index.html" style="font-weight: bold; color: var(--color-primary); text-decoration: none;">Voltar aos serviços e orientações de TCC ↗</a></p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-info">
+        <h4>InfoHub UEMG Carangola</h4>
+        <p>
+          Atividade de Extensão Curricularizada — Disciplina de Programação 2<br />
+          Curso de Bacharelado em Sistemas de Informação<br />
+          Universidade do Estado de Minas Gerais — Unidade Acadêmica de Carangola
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Institucional & Governança</h4>
+        <ul class="footer-links">
+          <li>
+            <button type="button" class="footer-modal-trigger" data-modal-target="modal-sobre">
+              Sobre o Projeto de Extensão
+            </button>
+          </li>
+          <li>
+            <button type="button" class="footer-modal-trigger" data-modal-target="modal-termos">
+              Termos de Uso
+            </button>
+          </li>
+          <li>
+            <button type="button" class="footer-modal-trigger" data-modal-target="modal-privacidade">
+              Política de Privacidade & LGPD
+            </button>
+          </li>
+          <li>
+            <a href="https://www.uemg.br/" target="_blank" rel="noopener noreferrer">
+              Portal Oficial UEMG ↗
+            </a>
+          </li>
+          <li>
+            <a href="https://www.uemg.br/carangola" target="_blank" rel="noopener noreferrer">
+              Unidade Carangola ↗
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 UEMG Unidade Carangola — Sistemas de Informação. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAIS NATIVOS (<dialog>) -->
+  <dialog id="modal-sobre" class="app-dialog" aria-labelledby="modal-sobre-title">
+    <div class="dialog-content">
+      <header class="dialog-header">
+        <div class="dialog-header-title-box">
+          <span class="dialog-badge">Extensão Curricularizada</span>
+          <h3 id="modal-sobre-title" class="dialog-title">Sobre o Projeto InfoHub UEMG Carangola</h3>
+        </div>
+        <button type="button" class="dialog-close-btn" data-close-modal aria-label="Fechar modal Sobre o Projeto">
+          &times;
+        </button>
+      </header>
+      <div class="dialog-body">
+        <p>
+          O <strong>InfoHub UEMG Carangola</strong> é uma atividade de extensão universitária curricularizada realizada
+          no âmbito da disciplina de <strong>Programação 2</strong> do curso de <strong>Bacharelado em Sistemas de
+            Informação</strong> da Universidade do Estado de Minas Gerais (UEMG), Unidade Acadêmica de Carangola.
+        </p>
+      </div>
+      <footer class="dialog-footer">
+        <button type="button" class="dialog-action-btn" data-close-modal>Compreendi</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <dialog id="modal-termos" class="app-dialog" aria-labelledby="modal-termos-title">
+    <div class="dialog-content">
+      <header class="dialog-header">
+        <div class="dialog-header-title-box">
+          <span class="dialog-badge">Normativa & Uso</span>
+          <h3 id="modal-termos-title" class="dialog-title">Termos de Uso do InfoHub</h3>
+        </div>
+        <button type="button" class="dialog-close-btn" data-close-modal aria-label="Fechar modal Termos de Uso">
+          &times;
+        </button>
+      </header>
+      <div class="dialog-body">
+        <p>
+          O InfoHub opera exclusivamente como um centro agregador, informativo e facilitador de acesso aos serviços
+          institucionais da Unidade Acadêmica de Carangola.
+        </p>
+      </div>
+      <footer class="dialog-footer">
+        <button type="button" class="dialog-action-btn" data-close-modal>Entendido</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <dialog id="modal-privacidade" class="app-dialog" aria-labelledby="modal-privacidade-title">
+    <div class="dialog-content">
+      <header class="dialog-header">
+        <div class="dialog-header-title-box">
+          <span class="dialog-badge">Proteção de Dados & LGPD</span>
+          <h3 id="modal-privacidade-title" class="dialog-title">Política de Privacidade & LGPD</h3>
+        </div>
+        <button type="button" class="dialog-close-btn" data-close-modal
+          aria-label="Fechar modal Política de Privacidade">
+          &times;
+        </button>
+      </header>
+      <div class="dialog-body">
+        <p>
+          Em conformidade com a <strong>LGPD (Lei nº 13.709/2018)</strong>, este portal estático não coleta, não solicita e não armazena dados pessoais identificáveis dos visitantes.
+        </p>
+      </div>
+      <footer class="dialog-footer">
+        <button type="button" class="dialog-action-btn" data-close-modal>Concordo</button>
+      </footer>
+    </div>
+  </dialog>
+
+  <!-- SCRIPTS -->
+  <script src="./js/base-uemg.js"></script>
+  <script src="./js/setor.js"></script>
+</body>
+
+</html>
